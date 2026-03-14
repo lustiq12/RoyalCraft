@@ -1,0 +1,162 @@
+[12März2026 20:53:17.767] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[12März2026 20:53:17.770] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[12März2026 20:53:17.788] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[12März2026 20:53:18.138] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[12März2026 20:53:18.263] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[12März2026 20:53:18.266] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[12März2026 20:53:18.268] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[12März2026 20:53:18.270] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[12März2026 20:53:18.273] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[12März2026 20:53:18.276] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[12März2026 20:53:18.294] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[12März2026 20:53:18.425] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[12März2026 20:53:18.440] [main/DEBUG] [mixin/]: Prepared 2 mixins in 0,667 sec (333,5ms avg) (0ms load, 0ms transform, 0ms plugin)
+[12März2026 20:53:18.455] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[12März2026 20:53:18.462] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[12März2026 20:53:18.463] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[12März2026 20:53:18.936] [main/INFO] [net.minecraft.gametest.framework.GameTestMainUtil/]: Running GameTestMain with cwd 'C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer', universe path 'gametestserver'
+[12März2026 20:53:18.954] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[12März2026 20:53:18.957] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[12März2026 20:53:18.958] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[12März2026 20:53:18.960] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[12März2026 20:53:18.990] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[12März2026 20:53:18.997] [main/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12März2026 20:53:20.363] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[12März2026 20:53:20.364] [main/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12März2026 20:53:22.054] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[12März2026 20:53:22.054] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[12März2026 20:53:22.055] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[12März2026 20:53:22.056] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[12März2026 20:53:22.056] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[12März2026 20:53:22.057] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[12März2026 20:53:22.057] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[12März2026 20:53:22.059] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[12März2026 20:53:22.059] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[12März2026 20:53:22.060] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\julia\AppData\Local\Temp (java.io.tmpdir)
+[12März2026 20:53:22.060] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[12März2026 20:53:22.061] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[12März2026 20:53:22.061] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[12März2026 20:53:22.062] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[12März2026 20:53:22.063] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[12März2026 20:53:22.063] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[12März2026 20:53:24.994] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[12März2026 20:53:25.019] [main/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[12März2026 20:53:25.050] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[12März2026 20:53:25.079] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.OnlyInWarningsHandler, net.neoforged.neoforge.common.NeoForgeMod]
+[12März2026 20:53:25.086] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.mcreator.royalcraft.RoyalcraftMod]
+[12März2026 20:53:25.104] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.8.52
+[12März2026 20:53:25.104] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 9.0.18
+[12März2026 20:53:25.104] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.52, for MC 1.21.8
+[12März2026 20:53:25.126] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[12März2026 20:53:25.128] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[12März2026 20:53:25.171] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[12März2026 20:53:25.174] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.176] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[12März2026 20:53:25.176] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.194] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[12März2026 20:53:25.195] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[12März2026 20:53:25.196] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bc16b48
+[12März2026 20:53:25.203] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[12März2026 20:53:25.203] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[12März2026 20:53:25.205] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[12März2026 20:53:25.207] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[12März2026 20:53:25.207] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[12März2026 20:53:25.207] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[12März2026 20:53:25.207] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[12März2026 20:53:25.207] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[12März2026 20:53:25.214] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[12März2026 20:53:25.215] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[12März2026 20:53:25.215] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[12März2026 20:53:25.220] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[12März2026 20:53:25.221] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.224] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[12März2026 20:53:25.225] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.225] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[12März2026 20:53:25.226] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.232] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[12März2026 20:53:25.233] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.234] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[12März2026 20:53:25.235] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[12März2026 20:53:25.267] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for royalcraft
+[12März2026 20:53:25.267] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.command.ElixirCommand for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.273] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.command.ElixirCommand.registerCommand(net.neoforged.neoforge.event.RegisterCommandsEvent) to the game event bus
+[12März2026 20:53:25.273] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.command.StartgameCommand for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.274] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.command.StartgameCommand.registerCommand(net.neoforged.neoforge.event.RegisterCommandsEvent) to the game event bus
+[12März2026 20:53:25.274] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.command.TeamCommand for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.275] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.command.TeamCommand.registerCommand(net.neoforged.neoforge.event.RegisterCommandsEvent) to the game event bus
+[12März2026 20:53:25.276] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.data.GameManager for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.279] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.data.GameManager.onItemToss(net.neoforged.neoforge.event.entity.item.ItemTossEvent) to the game event bus
+[12März2026 20:53:25.280] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.data.GameManager.onServerTick(net.neoforged.neoforge.event.tick.ServerTickEvent$Post) to the game event bus
+[12März2026 20:53:25.280] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.init.RoyalcraftModEntities for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.281] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.init.RoyalcraftModEntities.init(net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent) to the event bus of mod royalcraft
+[12März2026 20:53:25.282] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.init.RoyalcraftModEntities.registerAttributes(net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent) to the event bus of mod royalcraft
+[12März2026 20:53:25.282] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.init.RoyalcraftModTabs for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.283] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.init.RoyalcraftModTabs.buildTabContentsVanilla(net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent) to the event bus of mod royalcraft
+[12März2026 20:53:25.284] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.network.MenuStateUpdateMessage for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.285] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.MenuStateUpdateMessage.registerMessage(net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent) to the event bus of mod royalcraft
+[12März2026 20:53:25.286] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.network.RoyalcraftModVariables for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.288] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.init(net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent) to the event bus of mod royalcraft
+[12März2026 20:53:25.288] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerTickUpdateSyncPlayerVariables(net.neoforged.neoforge.event.tick.PlayerTickEvent$Post) to the game event bus
+[12März2026 20:53:25.288] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerLoggedInSyncPlayerVariables(net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerLoggedInEvent) to the game event bus
+[12März2026 20:53:25.289] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerRespawnedSyncPlayerVariables(net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerRespawnEvent) to the game event bus
+[12März2026 20:53:25.289] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.clonePlayer(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[12März2026 20:53:25.289] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerLoggedIn(net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerLoggedInEvent) to the game event bus
+[12März2026 20:53:25.290] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onWorldTick(net.neoforged.neoforge.event.tick.LevelTickEvent$Post) to the game event bus
+[12März2026 20:53:25.291] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerChangedDimension(net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent) to the game event bus
+[12März2026 20:53:25.292] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.network.RoyalcraftModVariables.onPlayerChangedDimensionSyncPlayerVariables(net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent) to the game event bus
+[12März2026 20:53:25.293] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.procedures.EntitySpawnsProcedure for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.294] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.procedures.EntitySpawnsProcedure.onEntitySpawned(net.neoforged.neoforge.event.entity.EntityJoinLevelEvent) to the game event bus
+[12März2026 20:53:25.294] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.procedures.TickupdateProcedure for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.295] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.procedures.TickupdateProcedure.onPlayerTick(net.neoforged.neoforge.event.tick.PlayerTickEvent$Post) to the game event bus
+[12März2026 20:53:25.295] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.mcreator.royalcraft.procedures.WorldTickerProcedure for @SubscribeEvent-annotated methods
+[12März2026 20:53:25.296] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.mcreator.royalcraft.procedures.WorldTickerProcedure.onWorldTick(net.neoforged.neoforge.event.tick.LevelTickEvent$Post) to the game event bus
+[12März2026 20:53:25.325] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[12März2026 20:53:25.448] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[12März2026 20:53:25.478] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[12März2026 20:53:25.479] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[12März2026 20:53:25.502] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[12März2026 20:53:25.502] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer\config\neoforge-common.toml
+[12März2026 20:53:25.510] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer\config\neoforge-common.toml for changes
+[12März2026 20:53:25.521] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[12März2026 20:53:25.524] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.271 ms
+[12März2026 20:53:25.692] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/assets/.mcassetsroot' uses unexpected schema
+[12März2026 20:53:25.695] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/data/.mcassetsroot' uses unexpected schema
+[12März2026 20:53:28.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[12März2026 20:53:28.870] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[12März2026 20:53:28.876] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[12März2026 20:53:29.039] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[12März2026 20:53:29.043] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[12März2026 20:53:29.043] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer\config\neoforge-server.toml
+[12März2026 20:53:29.045] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer\config\neoforge-server.toml for changes
+[12März2026 20:53:29.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12März2026 20:53:30.005] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[12März2026 20:53:30.231] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 286 ms
+[12März2026 20:53:30.290] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[12März2026 20:53:30.313] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 4 language files for en_us
+[12März2026 20:53:30.325] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12März2026 20:53:30.450] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 1 tests are now running at position -9659068, -59, -3632967!
+[12März2026 20:53:30.770] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test environment 'minecraft:default' batch 0 (1 tests)...
+[12März2026 20:53:31.196] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+]
+[12März2026 20:53:31.196] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 1 GAME TESTS COMPLETE IN 744.8 ms ======================
+[12März2026 20:53:31.197] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 1 required tests passed :)
+[12März2026 20:53:31.197] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12März2026 20:53:35.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[12März2026 20:53:36.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[12März2026 20:53:36.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[12März2026 20:53:36.038] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save Test Level
+[12März2026 20:53:36.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gametestworld): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12März2026 20:53:36.142] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[12März2026 20:53:36.143] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

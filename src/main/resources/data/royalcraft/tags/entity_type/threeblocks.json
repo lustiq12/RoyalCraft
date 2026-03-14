@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "royalcraft:red_barbarian",
+    "royalcraft:blue_barbarian",
+    "royalcraft:blue_golem",
+    "royalcraft:blue_mini_pekka",
+    "royalcraft:red_giant",
+    "royalcraft:blue_minion",
+    "royalcraft:red_minion",
+    "royalcraft:red_mini_pekka",
+    "royalcraft:red_golem",
+    "royalcraft:blue_giant"
+  ]
+}

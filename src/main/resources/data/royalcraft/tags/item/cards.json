@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "royalcraft:golem_item",
+    "royalcraft:giant_item",
+    "royalcraft:mini_pekka_item",
+    "royalcraft:barbarian_item",
+    "royalcraft:minion_item"
+  ]
+}

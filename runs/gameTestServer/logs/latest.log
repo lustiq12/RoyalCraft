@@ -1,0 +1,51 @@
+[20:53:15] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgegametestserverdev, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoForgeVersion, 21.8.52, --fml.neoFormVersion, 20250717.133445]
+[20:53:15] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[20:53:15] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[20:53:16] [main/INFO]: ImmediateWindowProvider not loading because launch target is neoforgegametestserverdev
+[20:53:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/julia/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=SERVER
+[20:53:16] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
+[20:53:16] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
+[20:53:16] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[20:53:16] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:53:16] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [locator: userdev mods and services, reader: mod manifest]
+[20:53:16] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\julia\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar
+[20:53:16] [main/INFO]: Found 1 dependencies adding them to mods collection
+[20:53:16] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.8.52.jar" [parent: neoforge-21.8.52.jar, locator: jarinjar, reader: mod manifest]
+[20:53:16] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.8 (minecraft)
+		NeoForge 21.8.52 (neoforge)
+		RoyalCraft 1.0.0 (royalcraft)
+[20:53:17] [main/INFO]: Launching target 'neoforgegametestserverdev' with arguments []
+[12März2026 20:53:18.936] [main/INFO] [net.minecraft.gametest.framework.GameTestMainUtil/]: Running GameTestMain with cwd 'C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\runs\gameTestServer', universe path 'gametestserver'
+[12März2026 20:53:18.954] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[12März2026 20:53:25.104] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.52, for MC 1.21.8
+[12März2026 20:53:25.692] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/assets/.mcassetsroot' uses unexpected schema
+[12März2026 20:53:25.695] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/data/.mcassetsroot' uses unexpected schema
+[12März2026 20:53:28.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[12März2026 20:53:28.870] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[12März2026 20:53:28.876] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[12März2026 20:53:29.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12März2026 20:53:30.005] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[12März2026 20:53:30.231] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 286 ms
+[12März2026 20:53:30.290] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[12März2026 20:53:30.325] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12März2026 20:53:30.450] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 1 tests are now running at position -9659068, -59, -3632967!
+[12März2026 20:53:30.770] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestRunner/]: Running test environment 'minecraft:default' batch 0 (1 tests)...
+[12März2026 20:53:31.196] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+]
+[12März2026 20:53:31.196] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 1 GAME TESTS COMPLETE IN 744.8 ms ======================
+[12März2026 20:53:31.197] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 1 required tests passed :)
+[12März2026 20:53:31.197] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12März2026 20:53:31.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12März2026 20:53:35.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[12März2026 20:53:36.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[12März2026 20:53:36.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[12März2026 20:53:36.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gametestworld): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12März2026 20:53:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12März2026 20:53:36.143] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

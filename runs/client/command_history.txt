@@ -1,0 +1,50 @@
+/data modify entity 3b7f3c84-7052-4c78-b134-48cf8e402436 Health set value 1000
+/tick unfreeze
+/data modify entity 3b7f3c84-7052-4c78-b134-48cf8e402436 Health set value 1000
+/data modify entity 3b7f3c84-7052-4c78-b134-48cf8e402436 Health set value 10000
+/time set day
+/startgame Dev Dev 0 100 0
+/elixir Dev 1000
+/startgame Dev Dev 0 100 0
+/effect give Dev minecraft:strength infinite 255 true
+/startgame Dev Dev 0 100 0
+/startgame Dev1 Dev1 0 100 0
+/startgame Dev1 Dev2 0 100 0
+/time set day
+/startgame Dev1 Dev2 0 100 0
+/effect give Dev minecraft:strength infinite 255 true
+/effect give @a minecraft:strength infinite 255 true
+/startgame Dev1 Dev2 0 100 0
+/startgame Dev1 Dev1 0 100 0
+/elixir Dev1 1000
+/startgame Dev1 Dev1 0 100 0
+/elixir Dev1 1000
+/startgame Dev1 Dev1 0 100 0
+/summon royalcraft:dark_spit
+/tick rate 5
+/tick rate 1
+/tick rate 20
+/tick rate 5
+/tick rate 1
+/tick rate 20
+/tick rate 1
+/tick rate 20
+/tick rate 1
+/tick rate 20
+/tick rate 1
+/tick rate 20
+/elixir Dev1 100
+/startgame Dev1 Dev1 0 100 0
+/elixir Dev1 100
+/time set day
+/startgame Dev1 Dev1 0 100 0
+/elixir Dev1 100
+/crteam Dev1 red
+/crteam Dev1 Red
+/startgame Dev1 Dev1 0 100 0
+/data get entity 7cc8c137-7d74-41cc-bd3f-850d642c07fb Health
+/give Dev1 royalcraft:mini_pekka_item
+/give Dev1 royalcraft:red_minion_spawn_egg i
+/give Dev1 royalcraft:red_minion_spawn_egg
+/startgame Dev1 Dev1 0 100 0
+/startgame Dev1 Dev2 0 100 0

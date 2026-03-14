@@ -1,0 +1,162 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2026-03-13 12:53:35
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.getX()" because "Targetentity" is null
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.procedures.BlueminionOnEntityTickUpdateProcedure.execute(BlueminionOnEntityTickUpdateProcedure.java:30) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.entity.BlueminionEntity.baseTick(BlueminionEntity.java:86) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Entity.tick(Entity.java:478) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2619) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.tick(Mob.java:328) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:778) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1083) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.procedures.BlueminionOnEntityTickUpdateProcedure.execute(BlueminionOnEntityTickUpdateProcedure.java:30) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.entity.BlueminionEntity.baseTick(BlueminionEntity.java:86) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Entity.tick(Entity.java:478) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2619) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.entity.Mob.tick(Mob.java:328) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:778) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+-- Entity being ticked --
+Details:
+	Entity Type: royalcraft:blue_minion (net.mcreator.royalcraft.entity.BlueminionEntity)
+	Entity ID: 130
+	Entity Name: entity.royalcraft.blue_minion
+	Entity's Exact location: 35.51, 102.96, 12.52
+	Entity's Block location: World: (35,102,12), Section: (at 3,6,12 in 2,6,0; chunk contains blocks 32,-64,0 to 47,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.Level.guardEntityTick(Level.java:588) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:414) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:394) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1083) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; ServerPlayer{name=Dev1, id=306, pos=(33.34751495523861, 103.06109359415456, 14.748230958823727), mode=CREATIVE, permission=4}
+	Chunk stats: 898
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 48714 game time, 17732 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Level weather: Rain time: 43269 (now: false), thunder time: 109901 (now: false)
+	Known server brands: neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 306
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1787) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1086) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:956) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:716) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:277) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 77817008 bytes (74 MiB) / 555745280 bytes (530 MiB) up to 4236247040 bytes (4040 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12650H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 4070 Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8188.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.9144
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation
+	Graphics card #1 VRAM (MiB): 1024.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 31.0.101.4255
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 20381.29
+	Virtual memory used (MiB): 18701.70
+	Swap memory total (MiB): 4228.16
+	Swap memory used (MiB): 870.58
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 36382.56, total: 462863.00
+	Space in storage for workdir (MiB): available: 36382.56, total: 462863.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev1'/306, l='ServerLevel[New World]', x=33.35, y=103.06, z=14.75]]
+	Active Data Packs: vanilla, mod_data, mod/neoforge, mod/royalcraft
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/neoforge, mod/royalcraft, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 4917196573492272112
+	Suppressed Exceptions: ~~NONE~~
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.8.52
+	ModLauncher: 9.0
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-9.0.18.jar neoforgedevdistcleaner PLUGINSERVICE 
+		loader-9.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-9.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		loader-9.0.18.jar accesstransformer PLUGINSERVICE 
+		loader-9.0.18.jar mixin TRANSFORMATIONSERVICE 
+		loader-9.0.18.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@9.0
+		minecraft@9.0
+	Mod List: 
+		neoforge-21.8.52.jar                              |Minecraft                     |minecraft                     |1.21.8              |Manifest: NOSIGNATURE
+		neoforge-21.8.52.jar                              |NeoForge                      |neoforge                      |21.8.52             |Manifest: NOSIGNATURE
+		main                                              |RoyalCraft                    |royalcraft                    |1.0.0               |Manifest: NOSIGNATURE
+	Crash Report UUID: 21e18696-d7de-44b0-a070-63998a30afdb
+	FML: 9.0.18
+	NeoForge: 21.8.52

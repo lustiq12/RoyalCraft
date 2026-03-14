@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.mcreator",
+    "module": "RoyalCraft",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "RoyalCraft-1.0-SNAPSHOT.jar",
+          "url": "RoyalCraft-1.0-SNAPSHOT.jar",
+          "size": 371524,
+          "sha512": "156ade6bf615b43a673c4fb7f13932556436694f3fa90e0a5a749e94d6910291981aa8e2515e44587ed3fca5da5cab9f4bd29705c58de2b128778e346a119cde",
+          "sha256": "9b48d67067b264b86912e5f5e9f8a0b389c51967e9083d4fe4c1c23e1485b67d",
+          "sha1": "a6ef879ceb9942ee1ae57e86b62eeb360a71a466",
+          "md5": "e8bb72866323b58204b2c3f3f29d750b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "RoyalCraft-1.0-SNAPSHOT.jar",
+          "url": "RoyalCraft-1.0-SNAPSHOT.jar",
+          "size": 371524,
+          "sha512": "156ade6bf615b43a673c4fb7f13932556436694f3fa90e0a5a749e94d6910291981aa8e2515e44587ed3fca5da5cab9f4bd29705c58de2b128778e346a119cde",
+          "sha256": "9b48d67067b264b86912e5f5e9f8a0b389c51967e9083d4fe4c1c23e1485b67d",
+          "sha1": "a6ef879ceb9942ee1ae57e86b62eeb360a71a466",
+          "md5": "e8bb72866323b58204b2c3f3f29d750b"
+        }
+      ]
+    }
+  ]
+}
