@@ -15,7 +15,7 @@ public class MiniPEKKAitemItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		SummonTroopProcedure.execute(world, entity, SummonTroopProcedure.Troop.BARBARIAN, 1, 4);
+		SummonTroopProcedure.execute(world, entity, SummonTroopProcedure.Troop.MINI_PEKKA, 1, 4);
 		return ar;
 	}
 }

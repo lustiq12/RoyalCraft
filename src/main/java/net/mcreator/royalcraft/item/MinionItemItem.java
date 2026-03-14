@@ -15,7 +15,7 @@ public class MinionItemItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		SummonTroopProcedure.execute(world, entity, SummonTroopProcedure.Troop.BARBARIAN, 3, 3);
+		SummonTroopProcedure.execute(world, entity, SummonTroopProcedure.Troop.MINION, 3, 3);
 		return ar;
 	}
 }
