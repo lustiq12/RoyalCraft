@@ -1,5 +1,6 @@
 package net.mcreator.royalcraft.entity;
 
+import net.mcreator.royalcraft.procedures.TowerSpawnedProcedure;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.ServerLevelAccessor;
@@ -18,7 +19,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.royalcraft.procedures.RedKingTowerSpawnedProcedure;
 import net.mcreator.royalcraft.procedures.RedKingTowerEntityDiesProcedure;
 import net.mcreator.royalcraft.procedures.InvulnerableProcedure;
 
@@ -57,7 +57,7 @@ public class RedKingTowerEntity extends Monster {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		RedKingTowerSpawnedProcedure.execute(this.getX(), this.getY(), this.getZ(), this);
+		TowerSpawnedProcedure.execute(this, -90, this.getX(), this.getY(), this.getZ());
 		return retval;
 	}
 

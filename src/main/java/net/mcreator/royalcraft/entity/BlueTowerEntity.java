@@ -1,5 +1,6 @@
 package net.mcreator.royalcraft.entity;
 
+import net.mcreator.royalcraft.procedures.TowerSpawnedProcedure;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.ServerLevelAccessor;
@@ -20,7 +21,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.royalcraft.procedures.InvulnerableProcedure;
 import net.mcreator.royalcraft.procedures.BlueTowerEntityDiesProcedure;
-import net.mcreator.royalcraft.procedures.BluePrincessTowerSpawnedProcedure;
 
 import javax.annotation.Nullable;
 
@@ -57,7 +57,7 @@ public class BlueTowerEntity extends Monster {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		BluePrincessTowerSpawnedProcedure.execute(this);
+		TowerSpawnedProcedure.execute(this, -90);
 		return retval;
 	}
 

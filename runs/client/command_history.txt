@@ -1,7 +1,5 @@
 /tick rate 1
 /tick rate 20
-/tick rate 1
-/tick rate 20
 /elixir Dev1 100
 /startgame Dev1 Dev1 0 100 0
 /elixir Dev1 100
@@ -48,3 +46,5 @@
 /elixir Dev1 9
 /elixir Dev1 10
 /elixir Dev1 11
+/crteam Dev1 Red
+/elixir Dev1 100

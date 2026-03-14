@@ -1,6 +1,6 @@
 package net.mcreator.royalcraft.item;
 
-import net.mcreator.royalcraft.procedures.SummonMinionProcedure;
+import net.mcreator.royalcraft.procedures.SummonTroopProcedure;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -15,7 +15,7 @@ public class MinionItemItem extends Item {
 	@Override
 	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
 		InteractionResult ar = super.use(world, entity, hand);
-		SummonMinionProcedure.execute(world, entity);
+		SummonTroopProcedure.execute(world, entity, SummonTroopProcedure.Troop.BARBARIAN, 3, 3);
 		return ar;
 	}
 }
