@@ -47,8 +47,6 @@ public class RoyalcraftModEntities {
 			EntityType.Builder.<BlueKingTowerEntity>of(BlueKingTowerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).sized(2.8f, 2.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<RedKingTowerEntity>> RED_KING_TOWER = register("red_king_tower",
 			EntityType.Builder.<RedKingTowerEntity>of(RedKingTowerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).sized(2.8f, 2.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<HealthBarEntity>> HEALTH_BAR = register("health_bar",
-			EntityType.Builder.<HealthBarEntity>of(HealthBarEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.6f, 0.4f));
 	public static final DeferredHolder<EntityType<?>, EntityType<BlueGiantEntity>> BLUE_GIANT = register("blue_giant",
 			EntityType.Builder.<BlueGiantEntity>of(BlueGiantEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).sized(0.4f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<RedGiantEntity>> RED_GIANT = register("red_giant",
@@ -74,7 +72,6 @@ public class RoyalcraftModEntities {
 		BlueBarbarianEntity.init(event);
 		BlueKingTowerEntity.init(event);
 		RedKingTowerEntity.init(event);
-		HealthBarEntity.init(event);
 		BlueGiantEntity.init(event);
 		RedGiantEntity.init(event);
 		BlueMiniPEKKAEntity.init(event);
@@ -93,7 +90,6 @@ public class RoyalcraftModEntities {
 		event.put(BLUE_BARBARIAN.get(), BlueBarbarianEntity.createAttributes().build());
 		event.put(BLUE_KING_TOWER.get(), BlueKingTowerEntity.createAttributes().build());
 		event.put(RED_KING_TOWER.get(), RedKingTowerEntity.createAttributes().build());
-		event.put(HEALTH_BAR.get(), HealthBarEntity.createAttributes().build());
 		event.put(BLUE_GIANT.get(), BlueGiantEntity.createAttributes().build());
 		event.put(RED_GIANT.get(), RedGiantEntity.createAttributes().build());
 		event.put(BLUE_MINI_PEKKA.get(), BlueMiniPEKKAEntity.createAttributes().build());

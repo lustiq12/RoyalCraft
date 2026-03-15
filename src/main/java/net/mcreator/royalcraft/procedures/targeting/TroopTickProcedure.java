@@ -70,6 +70,11 @@ public class TroopTickProcedure {
                     .stream()
                     .min(Comparator.comparingDouble(e -> e.distanceToSqr(x, y, z)))
                     .orElse(null);
+
+            if (target != null && entity instanceof Mob _entity) {
+                _entity.setTarget(target);
+            }
+
         }
 
         // Jeden Tick: Rotation + Abstand halten

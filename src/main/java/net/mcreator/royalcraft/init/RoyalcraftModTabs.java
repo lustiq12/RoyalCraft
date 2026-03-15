@@ -31,7 +31,6 @@ public class RoyalcraftModTabs {
 			tabData.accept(RoyalcraftModItems.BLUE_BARBARIAN_SPAWN_EGG.get());
 			tabData.accept(RoyalcraftModItems.BLUE_KING_TOWER_SPAWN_EGG.get());
 			tabData.accept(RoyalcraftModItems.RED_KING_TOWER_SPAWN_EGG.get());
-			tabData.accept(RoyalcraftModItems.HEALTH_BAR_SPAWN_EGG.get());
 			tabData.accept(RoyalcraftModItems.BLUE_GIANT_SPAWN_EGG.get());
 			tabData.accept(RoyalcraftModItems.RED_GIANT_SPAWN_EGG.get());
 			tabData.accept(RoyalcraftModItems.BLUE_MINI_PEKKA_SPAWN_EGG.get());

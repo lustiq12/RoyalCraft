@@ -33,7 +33,6 @@ public class RoyalcraftModItems {
 	public static final DeferredItem<Item> BLUE_BARBARIAN_SPAWN_EGG;
 	public static final DeferredItem<Item> BLUE_KING_TOWER_SPAWN_EGG;
 	public static final DeferredItem<Item> RED_KING_TOWER_SPAWN_EGG;
-	public static final DeferredItem<Item> HEALTH_BAR_SPAWN_EGG;
 	public static final DeferredItem<Item> BLUE_GIANT_SPAWN_EGG;
 	public static final DeferredItem<Item> RED_GIANT_SPAWN_EGG;
 	public static final DeferredItem<Item> GIANT_ITEM;
@@ -54,7 +53,6 @@ public class RoyalcraftModItems {
 		BLUE_BARBARIAN_SPAWN_EGG = register("blue_barbarian_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.BLUE_BARBARIAN.get(), properties));
 		BLUE_KING_TOWER_SPAWN_EGG = register("blue_king_tower_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.BLUE_KING_TOWER.get(), properties));
 		RED_KING_TOWER_SPAWN_EGG = register("red_king_tower_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.RED_KING_TOWER.get(), properties));
-		HEALTH_BAR_SPAWN_EGG = register("health_bar_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.HEALTH_BAR.get(), properties));
 		BLUE_GIANT_SPAWN_EGG = register("blue_giant_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.BLUE_GIANT.get(), properties));
 		RED_GIANT_SPAWN_EGG = register("red_giant_spawn_egg", properties -> new SpawnEggItem(RoyalcraftModEntities.RED_GIANT.get(), properties));
 		GIANT_ITEM = register("giant_item", GiantItemItem::new);

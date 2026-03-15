@@ -24,7 +24,6 @@ public class RoyalcraftModEntityRenderers {
 		event.registerEntityRenderer(RoyalcraftModEntities.BLUE_BARBARIAN.get(), BlueBarbarianRenderer::new);
 		event.registerEntityRenderer(RoyalcraftModEntities.BLUE_KING_TOWER.get(), BlueKingTowerRenderer::new);
 		event.registerEntityRenderer(RoyalcraftModEntities.RED_KING_TOWER.get(), RedKingTowerRenderer::new);
-		event.registerEntityRenderer(RoyalcraftModEntities.HEALTH_BAR.get(), HealthBarRenderer::new);
 		event.registerEntityRenderer(RoyalcraftModEntities.BLUE_GIANT.get(), BlueGiantRenderer::new);
 		event.registerEntityRenderer(RoyalcraftModEntities.RED_GIANT.get(), RedGiantRenderer::new);
 		event.registerEntityRenderer(RoyalcraftModEntities.BLUE_MINI_PEKKA.get(), BlueMiniPEKKARenderer::new);

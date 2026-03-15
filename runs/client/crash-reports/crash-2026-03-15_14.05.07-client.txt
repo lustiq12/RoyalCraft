@@ -1,0 +1,260 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2026-03-15 14:05:07
+Description: Rendering entity in world
+
+java.lang.IllegalStateException: Missing elements in vertex: Normal
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.endLastVertex(BufferBuilder.java:122) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.beginVertex(BufferBuilder.java:91) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.addVertex(BufferBuilder.java:149) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.VertexConsumer.addVertex(VertexConsumer.java:163) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:50) ~[bus-8.0.5.jar%23176!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23176!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23176!/:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderer.render(EntityRenderer.java:118) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:113) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:42) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:224) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:191) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:164) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:952) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntities(LevelRenderer.java:824) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.lambda$addMainPass$3(LevelRenderer.java:590) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:73) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:509) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:689) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:487) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.runTick(Minecraft.java:1285) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.run(Minecraft.java:882) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.main.Main.main(Main.java:243) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:132) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:25) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:55) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:73) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.run(Launcher.java:104) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [loader-9.0.18.jar%23172!/:9.0] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:203) [bootstraplauncher-9.0.18.jar:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:62) [bootstraplauncher-9.0.18.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.endLastVertex(BufferBuilder.java:122) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.beginVertex(BufferBuilder.java:91) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.addVertex(BufferBuilder.java:149) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.VertexConsumer.addVertex(VertexConsumer.java:163) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:50) ~[bus-8.0.5.jar%23176!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23176!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23176!/:?] {}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderer.render(EntityRenderer.java:118) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:113) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+-- EntityRenderState being rendered --
+Details:
+	EntityRenderState: net.minecraft.client.renderer.entity.state.LivingEntityRenderState
+	Entity's Exact location: 36.00, 101.00, 17.00
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:224) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:191) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:164) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:952) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntities(LevelRenderer.java:824) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.lambda$addMainPass$3(LevelRenderer.java:590) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:73) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:509) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:689) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:487) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.runTick(Minecraft.java:1285) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.run(Minecraft.java:882) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.main.Main.main(Main.java:243) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:132) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:25) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:55) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:73) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.run(Launcher.java:104) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [loader-9.0.18.jar%23172!/:9.0] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:203) [bootstraplauncher-9.0.18.jar:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:62) [bootstraplauncher-9.0.18.jar:?] {}
+
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.mcreator.royalcraft.client.renderer.RedKingTowerRenderer@2a155c1c
+	Location: 11.90,-4.24,-4.70 - World: (11,-5,-5), Section: (at 11,11,11 in 0,-1,-1; chunk contains blocks 0,-64,-16 to 15,319,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.fillRendererDetails(EntityRenderDispatcher.java:265) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:257) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:191) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:164) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:952) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderEntities(LevelRenderer.java:824) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.lambda$addMainPass$3(LevelRenderer.java:590) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.framegraph.FrameGraphBuilder.execute(FrameGraphBuilder.java:73) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:509) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:689) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:487) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.runTick(Minecraft.java:1285) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.Minecraft.run(Minecraft.java:882) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.main.Main.main(Main.java:243) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:132) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:120) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:49) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:114) ~[loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:25) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:55) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:73) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.run(Launcher.java:104) [loader-9.0.18.jar%23172!/:9.0] {}
+	at MC-BOOTSTRAP/fml_loader@9.0.18/cpw.mods.modlauncher.Launcher.main(Launcher.java:75) [loader-9.0.18.jar%23172!/:9.0] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:203) [bootstraplauncher-9.0.18.jar:?] {}
+	at cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:62) [bootstraplauncher-9.0.18.jar:?] {}
+
+
+-- Entity being rendered --
+Details:
+	Entity Type: royalcraft:red_king_tower (net.mcreator.royalcraft.entity.RedKingTowerEntity)
+	Entity ID: 15
+	Entity Name: Red King Tower
+	Entity's Exact location: 36.00, 101.00, 17.00
+	Entity's Block location: World: (36,101,17), Section: (at 4,5,1 in 2,6,1; chunk contains blocks 32,-64,16 to 47,319,31), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+
+-- Uptime --
+Details:
+	JVM uptime: 22.679s
+	Wall uptime: 11.024s
+	High-res time: 20.261s
+	Client ticks: 148 ticks / 7.400s
+
+-- Affected level --
+Details:
+	All players: 1 total; LocalPlayer{name=Dev1, id=18, pos=(24.103770837631153, 103.61548623118772, 21.704862566002127), mode=CREATIVE, permission=4}
+	Chunk stats: 961, 471
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 98934 game time, 7687 day time
+	Server brand: neoforge
+	Server type: Integrated singleplayer server
+	Tracked entity count: 18
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources, mod/neoforge, mod/royalcraft
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 151554240 bytes (144 MiB) / 614465536 bytes (586 MiB) up to 4236247040 bytes (4040 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i7-12650H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.69
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 4070 Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8188.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.9144
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation
+	Graphics card #1 VRAM (MiB): 1024.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 31.0.101.4255
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 4.80
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 4.80
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 20372.43
+	Virtual memory used (MiB): 19497.04
+	Swap memory total (MiB): 4219.30
+	Swap memory used (MiB): 97.28
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 35644.54, total: 462863.00
+	Space in storage for workdir (MiB): available: 35644.54, total: 462863.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Launched Version: 21.8.52
+	Backend library: LWJGL version 3.3.3+5
+	Backend API: NVIDIA GeForce RTX 4070 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 591.44, NVIDIA Corporation
+	Window size: 2560x1440
+	GFLW Platform: win32
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Universe: 400921fb54442d18
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 12/12 chunks
+	Resource Packs: vanilla, mod_resources, mod/neoforge, mod/royalcraft (incompatible)
+	Current Language: en_us
+	Locale: de_DE
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 16x 12th Gen Intel(R) Core(TM) i7-12650H
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev1'/18, l='ServerLevel[New World]', x=24.10, y=103.62, z=21.70]]
+	Active Data Packs: vanilla, mod_data, mod/neoforge, mod/royalcraft
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/neoforge, mod/royalcraft, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 4917196573492272112
+	Suppressed Exceptions: ~~NONE~~
+	ModLauncher: 9.0
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-9.0.18.jar neoforgedevdistcleaner PLUGINSERVICE 
+		loader-9.0.18.jar slf4jfixer PLUGINSERVICE 
+		loader-9.0.18.jar runtime_enum_extender PLUGINSERVICE 
+		loader-9.0.18.jar accesstransformer PLUGINSERVICE 
+		loader-9.0.18.jar mixin TRANSFORMATIONSERVICE 
+		loader-9.0.18.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@9.0
+		minecraft@9.0
+	Mod List: 
+		neoforge-21.8.52.jar                              |Minecraft                     |minecraft                     |1.21.8              |Manifest: NOSIGNATURE
+		neoforge-21.8.52.jar                              |NeoForge                      |neoforge                      |21.8.52             |Manifest: NOSIGNATURE
+		main                                              |RoyalCraft                    |royalcraft                    |1.0.0               |Manifest: NOSIGNATURE
+	Crash Report UUID: 09f7c76d-da8b-4bec-a42e-aaf4cb803da6
+	FML: 9.0.18
+	NeoForge: 21.8.52
