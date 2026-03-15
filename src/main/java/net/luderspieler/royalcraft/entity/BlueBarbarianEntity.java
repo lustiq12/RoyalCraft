@@ -1,5 +1,6 @@
 package net.luderspieler.royalcraft.entity;
 
+import net.luderspieler.royalcraft.procedures.targeting.TroopTickProcedure;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.phys.Vec3;
@@ -21,8 +22,6 @@ import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
-
-import net.luderspieler.royalcraft.procedures.deprecated.BlueBarbarianOnEntityTickUpdateProcedure;
 
 public class BlueBarbarianEntity extends Monster {
 	public static final EntityDataAccessor<String> DATA_Team = SynchedEntityData.defineId(BlueBarbarianEntity.class, EntityDataSerializers.STRING);
@@ -86,7 +85,7 @@ public class BlueBarbarianEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		BlueBarbarianOnEntityTickUpdateProcedure.execute(this.level(), this);
+		TroopTickProcedure.execute(this.level(), this, "red", true, false, false, 5.0f);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

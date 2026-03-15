@@ -20,7 +20,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.luderspieler.royalcraft.procedures.InvulnerableProcedure;
-import net.luderspieler.royalcraft.procedures.BlueKingTowerEntityDiesProcedure;
+import net.luderspieler.royalcraft.procedures.TowerDiesProcedure;
 
 import javax.annotation.Nullable;
 
@@ -51,7 +51,7 @@ public class BlueKingTowerEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		BlueKingTowerEntityDiesProcedure.execute(this.level(), this);
+		TowerDiesProcedure.execute(this.level(), this);
 	}
 
 	@Override

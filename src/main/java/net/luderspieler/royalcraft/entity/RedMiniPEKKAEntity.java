@@ -1,26 +1,24 @@
 package net.luderspieler.royalcraft.entity;
 
-import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
-
-import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.level.storage.ValueInput;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
-import net.minecraft.network.syncher.EntityDataAccessor;
+import net.luderspieler.royalcraft.procedures.targeting.TroopTickProcedure;
 import net.minecraft.core.registries.BuiltInRegistries;
-
-import net.luderspieler.royalcraft.procedures.deprecated.RedMiniPEKKAOnEntityTickUpdateProcedure;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.storage.ValueInput;
+import net.minecraft.world.level.storage.ValueOutput;
+import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 public class RedMiniPEKKAEntity extends Monster {
 	public static final EntityDataAccessor<String> DATA_Team = SynchedEntityData.defineId(RedMiniPEKKAEntity.class, EntityDataSerializers.STRING);
@@ -79,7 +77,7 @@ public class RedMiniPEKKAEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		RedMiniPEKKAOnEntityTickUpdateProcedure.execute(this.level(), this);
+		TroopTickProcedure.execute(this.level(), this, "blue", false, false, false);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

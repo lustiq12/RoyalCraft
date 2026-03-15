@@ -91,11 +91,13 @@ public class TroopTickProcedure {
 
             // Abstand halten
             double dist = Math.sqrt(entity.distanceToSqr(target));
+            double offsetX = (entity.getRandom().nextDouble() - 0.5) * 0.4;
+            double offsetZ = (entity.getRandom().nextDouble() - 0.5) * 0.4;
 
             if (attackRange < 0) {
-                _entity.getNavigation().moveTo(target.getX(), target.getY(), target.getZ(), 1.0);
+                _entity.getNavigation().moveTo(target.getX() + offsetX, target.getY(), target.getZ() + offsetZ, 1.0);
             } else if (dist > attackRange + 0.5) {
-                _entity.getNavigation().moveTo(target.getX(), target.getY(), target.getZ(), 1.0);
+                _entity.getNavigation().moveTo(target.getX() + offsetX, target.getY(), target.getZ() + offsetZ, 1.0);
             } else if (dist < attackRange - 0.5) {
                 double angle = Math.atan2(z - target.getZ(), x - target.getX());
                 _entity.getNavigation().moveTo(

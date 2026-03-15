@@ -1,5 +1,6 @@
 package net.luderspieler.royalcraft.entity;
 
+import net.luderspieler.royalcraft.procedures.TowerDiesProcedure;
 import net.luderspieler.royalcraft.procedures.TowerSpawnedProcedure;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -19,7 +20,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.luderspieler.royalcraft.procedures.RedTowerEntityDiesProcedure;
 import net.luderspieler.royalcraft.procedures.InvulnerableProcedure;
 
 import javax.annotation.Nullable;
@@ -51,7 +51,7 @@ public class RedTowerEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		RedTowerEntityDiesProcedure.execute(this.level(), this);
+		TowerDiesProcedure.execute(this.level(), this);
 	}
 
 	@Override

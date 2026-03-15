@@ -5,7 +5,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.LevelAccessor;
 
-public class RedKingTowerEntityDiesProcedure {
+public class TowerDiesProcedure {
     public static void execute(LevelAccessor world, Entity entity) {
         if (entity == null) return;
         if (world instanceof ServerLevel level)

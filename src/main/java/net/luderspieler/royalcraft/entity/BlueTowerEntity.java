@@ -1,5 +1,6 @@
 package net.luderspieler.royalcraft.entity;
 
+import net.luderspieler.royalcraft.procedures.TowerDiesProcedure;
 import net.luderspieler.royalcraft.procedures.TowerSpawnedProcedure;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -20,7 +21,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.luderspieler.royalcraft.procedures.InvulnerableProcedure;
-import net.luderspieler.royalcraft.procedures.BlueTowerEntityDiesProcedure;
 
 import javax.annotation.Nullable;
 
@@ -51,7 +51,7 @@ public class BlueTowerEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		BlueTowerEntityDiesProcedure.execute(this.level(), this);
+		TowerDiesProcedure.execute(this.level(), this);
 	}
 
 	@Override
