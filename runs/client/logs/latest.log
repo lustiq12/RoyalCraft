@@ -55,3 +55,47 @@
 [15März2026 15:37:34.584] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
 [15März2026 15:37:34.585] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
 [15März2026 15:37:34.586] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[15März2026 15:38:35.639] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[15März2026 15:38:35.649] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[15März2026 15:38:35.651] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[15März2026 15:38:35.803] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.8
+[15März2026 15:38:35.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15März2026 15:38:36.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15März2026 15:38:36.382] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15März2026 15:38:36.549] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 430 ms
+[15März2026 15:38:36.551] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[15März2026 15:38:36.676] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[15März2026 15:38:36.676] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 5, from 0
+[15März2026 15:38:37.527] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev1[local:E:d2ed1c01] logged in with entity id 15 at (16.227087534624587, 104.39279992929006, 20.80176589626468)
+[15März2026 15:38:37.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 joined the game
+[15März2026 15:38:37.796] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 62 advancements
+[15März2026 15:38:38.143] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[15März2026 15:38:38.325] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[15März2026 15:38:38.543] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[15März2026 15:38:38.648] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[15März2026 15:38:38.787] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[15März2026 15:38:38.829] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[15März2026 15:38:38.963] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[15März2026 15:38:39.124] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[15März2026 15:38:39.391] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[15März2026 15:38:44.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
+[15März2026 15:38:44.439] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
+[15März2026 15:38:45.419] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
+[15März2026 15:39:02.905] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15März2026 15:39:02.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 15:39:02.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 15:39:02.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 15:39:03.646] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[15März2026 15:39:03.658] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev1 lost connection: Disconnected
+[15März2026 15:39:03.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 left the game
+[15März2026 15:39:03.667] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[15März2026 15:39:03.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15März2026 15:39:03.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15März2026 15:39:03.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15März2026 15:39:03.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 15:39:03.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 15:39:03.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 15:39:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[15März2026 15:39:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15März2026 15:39:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15März2026 15:39:03.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
