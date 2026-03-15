@@ -57,7 +57,7 @@ public class RedKingTowerEntity extends Monster {
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, EntitySpawnReason reason, @Nullable SpawnGroupData livingdata) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
-		TowerSpawnedProcedure.execute(this, -90, this.getX(), this.getY(), this.getZ());
+		TowerSpawnedProcedure.execute(this, 90, this.getX(), this.getY(), this.getZ());
 		return retval;
 	}
 

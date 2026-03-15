@@ -37,6 +37,7 @@ public class HealthBarOverlay {
     @SubscribeEvent
     public static void onDoRender(RenderNameTagEvent.DoRender event) {
         EntityRenderState state = event.getEntityRenderState();
+        healthbarEntities.entrySet().removeIf(e -> !e.getValue().isAlive());
 
         LivingEntity barEntity = healthbarEntities.values().stream()
                 .filter(e -> Math.abs(e.getX() - state.x) < 0.2

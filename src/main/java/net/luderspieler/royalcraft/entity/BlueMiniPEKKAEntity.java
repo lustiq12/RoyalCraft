@@ -77,7 +77,7 @@ public class BlueMiniPEKKAEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		TroopTickProcedure.execute(this.level(), this, "red", false, false, false);
+		TroopTickProcedure.execute(this.level(), this, "red", true, false, false);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

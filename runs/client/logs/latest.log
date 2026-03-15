@@ -1,157 +1,126 @@
-[16:11:57] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.8.52, --assetIndex, asset-index, --assetsDir, C:\\Users\\julia\\.gradle\\caches\\minecraft\\assets, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoForgeVersion, 21.8.52, --fml.neoFormVersion, 20250717.133445, --username, Dev1]
-[16:11:57] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
-[16:11:57] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[16:11:58] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
-[16:11:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/julia/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
-[16:11:59] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
-[16:11:59] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
-[16:11:59] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
-[16:11:59] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: userdev mods and services, reader: mod manifest]
-[16:11:59] [fml-loadingscreen/INFO]: GL info: NVIDIA GeForce RTX 4070 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 591.44, NVIDIA Corporation
-[16:11:59] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [locator: userdev mods and services, reader: mod manifest]
-[16:11:59] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\julia\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar
-[16:11:59] [main/INFO]: Found 1 dependencies adding them to mods collection
-[16:11:59] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.8.52.jar" [parent: neoforge-21.8.52.jar, locator: jarinjar, reader: mod manifest]
-[16:11:59] [main/INFO]: 
+[16:25:33] [main/INFO]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.8.52, --assetIndex, asset-index, --assetsDir, C:\\Users\\julia\\.gradle\\caches\\minecraft\\assets, --fml.fmlVersion, 9.0.18, --fml.mcVersion, 1.21.8, --fml.neoForgeVersion, 21.8.52, --fml.neoFormVersion, 20250717.133445, --username, Dev1]
+[16:25:33] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[16:25:33] [main/INFO]: ModLauncher 9.0 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[16:25:33] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[16:25:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/julia/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[16:25:34] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
+[16:25:34] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: neoforge devenv provider ([C:\Users\julia\OneDrive\Desktop\Programmieren\Minecraft mods\RoyalCraft\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.8.52\neoforge-21.8.52.jar])]
+[16:25:34] [main/INFO]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[16:25:34] [main/INFO]: Found mod file "neoforge-21.8.52.jar" [locator: userdev mods and services, reader: mod manifest]
+[16:25:34] [fml-loadingscreen/INFO]: GL info: NVIDIA GeForce RTX 4070 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 591.44, NVIDIA Corporation
+[16:25:34] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [locator: userdev mods and services, reader: mod manifest]
+[16:25:35] [main/WARN]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\julia\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar
+[16:25:35] [main/INFO]: Found 1 dependencies adding them to mods collection
+[16:25:35] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.8.52.jar" [parent: neoforge-21.8.52.jar, locator: jarinjar, reader: mod manifest]
+[16:25:35] [main/INFO]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Minecraft 1.21.8 (minecraft)
 		NeoForge 21.8.52 (neoforge)
 		RoyalCraft 1.0.0 (royalcraft)
-[16:11:59] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.8.52, --assetsDir, C:\Users\julia\.gradle\caches\minecraft\assets, --assetIndex, asset-index, --username, Dev1]
-[15März2026 16:12:01.843] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 272 Datafixer optimizations took 606 milliseconds
-[15März2026 16:12:02.089] [pool-6-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[15März2026 16:12:07.496] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15März2026 16:12:07.497] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15März2026 16:12:07.501] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15März2026 16:12:07.502] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15März2026 16:12:07.503] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15März2026 16:12:07.504] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
-[15März2026 16:12:07.594] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.52, for MC 1.21.8
-[15März2026 16:12:08.247] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/assets/.mcassetsroot' uses unexpected schema
-[15März2026 16:12:08.248] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/data/.mcassetsroot' uses unexpected schema
-[15März2026 16:12:08.298] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15März2026 16:12:08.314] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev1
-[15März2026 16:12:08.555] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[15März2026 16:12:08.706] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[15März2026 16:12:10.268] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/royalcraft
-[15März2026 16:12:10.434] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
-[15März2026 16:12:10.434] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
-[15März2026 16:12:10.866] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
-[15März2026 16:12:12.252] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (FxSound Audio Enhancer)
-[15März2026 16:12:12.253] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[15März2026 16:12:12.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[15März2026 16:12:12.388] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[15März2026 16:12:12.388] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[15März2026 16:12:12.389] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[15März2026 16:12:12.390] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[15März2026 16:12:12.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[15März2026 16:12:12.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[15März2026 16:12:12.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[15März2026 16:12:12.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[15März2026 16:12:12.404] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[15März2026 16:12:12.409] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[15März2026 16:12:12.497] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[15März2026 16:12:12.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[15März2026 16:12:12.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[15März2026 16:12:18.726] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
-[15März2026 16:12:18.746] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
-[15März2026 16:12:18.751] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[15März2026 16:12:19.000] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.8
-[15März2026 16:12:19.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[15März2026 16:12:19.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[15März2026 16:12:19.726] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[15März2026 16:12:19.846] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[15März2026 16:12:19.847] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 364 ms
-[15März2026 16:12:19.970] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[15März2026 16:12:19.970] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 5, from 0
-[15März2026 16:12:20.947] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev1[local:E:364c1401] logged in with entity id 6 at (29.967882342678372, 105.12514627339755, 16.851980198487343)
-[15März2026 16:12:21.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 joined the game
-[15März2026 16:12:21.164] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 62 advancements
-[15März2026 16:12:21.581] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[15März2026 16:12:21.763] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[15März2026 16:12:21.901] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[15März2026 16:12:21.951] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[15März2026 16:12:22.295] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[15März2026 16:12:22.490] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[15März2026 16:12:22.662] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[15März2026 16:12:22.896] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[15März2026 16:12:23.249] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[15März2026 16:12:28.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:28.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:29.539] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
-[15März2026 16:12:30.053] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:12:30.053] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:12:32.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:32.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:34.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Red King Tower was destroyed! Dev1 won!
-[15März2026 16:12:34.403] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Red King Tower was destroyed! Dev1 won!
-[15März2026 16:12:36.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:36.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:38.454] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:12:38.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:12:39.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:12:39.702] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:12:41.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
-[15März2026 16:12:41.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
-[15März2026 16:12:42.605] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
-[15März2026 16:12:42.606] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
-[15März2026 16:12:48.653] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:12:48.654] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:12:52.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:12:52.918] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:13:07.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Killed 6 entities]
-[15März2026 16:13:07.831] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Killed 6 entities
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Red King Tower was destroyed! Dev1 won!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Red King Tower was destroyed! Dev1 won!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
-[15März2026 16:13:07.852] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
-[15März2026 16:13:07.853] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
-[15März2026 16:13:07.853] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:13:07.853] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
-[15März2026 16:13:44.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Set own game mode to Survival Mode]
-[15März2026 16:13:44.353] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[15März2026 16:13:49.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Set own game mode to Creative Mode]
-[15März2026 16:13:49.104] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[15März2026 16:13:56.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Set own game mode to Survival Mode]
-[15März2026 16:13:56.757] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[15März2026 16:14:27.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:14:27.943] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:14:31.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Set own game mode to Creative Mode]
-[15März2026 16:14:31.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[15März2026 16:14:35.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:14:35.770] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:14:37.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:14:37.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
-[15März2026 16:14:51.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Removed every effect from Dev1]
-[15März2026 16:14:51.197] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Removed every effect from Dev1
-[15März2026 16:14:59.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Applied effect Strength to Dev1]
-[15März2026 16:14:59.097] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Strength to Dev1
-[15März2026 16:15:05.904] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:15:05.904] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
-[15März2026 16:15:12.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:15:12.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
-[15März2026 16:15:37.250] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[15März2026 16:15:37.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15März2026 16:15:37.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15März2026 16:15:37.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15März2026 16:15:38.099] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[15März2026 16:15:38.151] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev1 lost connection: Disconnected
-[15März2026 16:15:38.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 left the game
-[15März2026 16:15:38.162] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[15März2026 16:15:38.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[15März2026 16:15:38.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[15März2026 16:15:38.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[15März2026 16:15:38.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[15März2026 16:15:38.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[15März2026 16:15:38.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[15März2026 16:15:38.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[15März2026 16:15:38.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15März2026 16:15:38.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15März2026 16:15:38.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:25:36] [main/INFO]: Launching target 'neoforgeclientdev' with arguments [--version, 21.8.52, --assetsDir, C:\Users\julia\.gradle\caches\minecraft\assets, --assetIndex, asset-index, --username, Dev1]
+[15März2026 16:25:39.100] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 272 Datafixer optimizations took 700 milliseconds
+[15März2026 16:25:39.385] [pool-6-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15März2026 16:25:45.710] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15März2026 16:25:45.711] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15März2026 16:25:45.713] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15März2026 16:25:45.715] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15März2026 16:25:45.715] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15März2026 16:25:45.717] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[15März2026 16:25:45.811] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.8.52, for MC 1.21.8
+[15März2026 16:25:46.331] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/assets/.mcassetsroot' uses unexpected schema
+[15März2026 16:25:46.332] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/julia/OneDrive/Desktop/Programmieren/Minecraft%20mods/RoyalCraft/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.8.52/neoforge-21.8.52.jar%23219!/data/.mcassetsroot' uses unexpected schema
+[15März2026 16:25:46.391] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15März2026 16:25:46.405] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev1
+[15März2026 16:25:46.571] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[15März2026 16:25:46.686] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[15März2026 16:25:47.794] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/royalcraft
+[15März2026 16:25:48.016] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.03.hex, loading
+[15März2026 16:25:48.016] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-16.0.03.hex, loading
+[15März2026 16:25:48.229] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.03.hex, loading
+[15März2026 16:25:49.855] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Lautsprecher (FxSound Audio Enhancer)
+[15März2026 16:25:49.856] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[15März2026 16:25:49.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[15März2026 16:25:49.961] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15März2026 16:25:49.962] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15März2026 16:25:49.963] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15März2026 16:25:49.963] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15März2026 16:25:49.966] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15März2026 16:25:49.969] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15März2026 16:25:49.969] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15März2026 16:25:49.971] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15März2026 16:25:49.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[15März2026 16:25:49.978] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[15März2026 16:25:50.061] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15März2026 16:25:50.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15März2026 16:25:50.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[15März2026 16:25:54.653] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[15März2026 16:25:54.664] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[15März2026 16:25:54.668] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[15März2026 16:25:54.834] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.8
+[15März2026 16:25:54.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15März2026 16:25:55.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15März2026 16:25:55.450] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15März2026 16:25:55.566] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[15März2026 16:25:55.573] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 356 ms
+[15März2026 16:25:55.652] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[15März2026 16:25:55.652] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 5, from 0
+[15März2026 16:25:56.375] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev1[local:E:a2c46911] logged in with entity id 18 at (18.054188278291882, 103.85113919660625, 14.904404133738062)
+[15März2026 16:25:56.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 joined the game
+[15März2026 16:25:56.731] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[15März2026 16:25:56.766] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 62 advancements
+[15März2026 16:25:56.921] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[15März2026 16:25:57.157] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[15März2026 16:25:57.212] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[15März2026 16:25:57.398] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[15März2026 16:25:57.541] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[15März2026 16:25:57.720] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[15März2026 16:25:58.025] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[15März2026 16:25:58.461] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[15März2026 16:26:00.692] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
+[15März2026 16:26:00.706] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
+[15März2026 16:26:24.244] [Render thread/INFO] [net.minecraft.client.renderer.DynamicUniformStorage/]: Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
+[15März2026 16:26:53.679] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
+[15März2026 16:26:53.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Red Tower was destroyed by Dev1!
+[15März2026 16:27:09.825] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
+[15März2026 16:27:09.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
+[15März2026 16:27:27.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
+[15März2026 16:27:27.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The Blue King Tower was destroyed! Dev1 won!
+[15März2026 16:27:45.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Game started! Red: Dev1 | Blue: Dev1
+[15März2026 16:27:45.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Game started! Red: Dev1 | Blue: Dev1
+[15März2026 16:30:09.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
+[15März2026 16:30:09.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Blue Tower was destroyed by Dev1!
+[15März2026 16:30:16.883] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
+[15März2026 16:30:16.883] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The first Blue Tower was destroyed by Dev1!
+[15März2026 16:30:32.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
+[15März2026 16:30:32.241] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The second Red Tower was destroyed by Dev1!
+[15März2026 16:31:03.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev1: Set the time to 1000]
+[15März2026 16:31:03.813] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[15März2026 16:31:04.120] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15März2026 16:31:04.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 16:31:04.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 16:31:04.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 16:32:58.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2026-03-15_16.32.58.png
+[15März2026 16:36:51.720] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15März2026 16:36:51.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 16:36:51.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 16:36:51.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 16:37:52.819] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[15März2026 16:37:52.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 16:37:52.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 16:37:52.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 16:37:53.652] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[15März2026 16:37:53.670] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev1 lost connection: Disconnected
+[15März2026 16:37:53.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev1 left the game
+[15März2026 16:37:53.680] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[15März2026 16:37:53.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15März2026 16:37:53.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15März2026 16:37:53.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15März2026 16:37:53.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15März2026 16:37:53.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15März2026 16:37:53.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15März2026 16:37:53.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[15März2026 16:37:53.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15März2026 16:37:53.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15März2026 16:37:53.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

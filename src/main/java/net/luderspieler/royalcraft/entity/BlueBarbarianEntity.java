@@ -85,7 +85,7 @@ public class BlueBarbarianEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		TroopTickProcedure.execute(this.level(), this, "red", true, false, false, 5.0f);
+		TroopTickProcedure.execute(this.level(), this, "red", true, false, false);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
