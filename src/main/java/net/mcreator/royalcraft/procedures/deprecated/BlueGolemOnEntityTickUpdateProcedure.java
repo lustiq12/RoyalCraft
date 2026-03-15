@@ -1,5 +1,6 @@
-package net.mcreator.royalcraft.procedures;
+package net.mcreator.royalcraft.procedures.deprecated;
 
+import net.mcreator.royalcraft.procedures.InvulnerableProcedure;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -14,7 +15,7 @@ import net.mcreator.royalcraft.network.RoyalcraftModVariables;
 
 import java.util.Comparator;
 
-public class RedGolemOnEntityTickUpdateProcedure {
+public class BlueGolemOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
@@ -25,7 +26,7 @@ public class RedGolemOnEntityTickUpdateProcedure {
 		double z = entity.getZ();
 		InvulnerableProcedure.execute(world, entity);
 		if (RoyalcraftModVariables.WorldVariables.get(world).WorldTimer == 1) {
-			Targetentity = lvl.getEntitiesOfClass(LivingEntity.class, new AABB(x - 40, y - 40, z - 40, x + 40, y + 40, z + 40), e -> e.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.tryParse("royalcraft:bluetowers")))).stream()
+			Targetentity = lvl.getEntitiesOfClass(LivingEntity.class, new AABB(x - 40, y - 40, z - 40, x + 40, y + 40, z + 40), e -> e.getType().is(TagKey.create(Registries.ENTITY_TYPE, ResourceLocation.tryParse("royalcraft:redtowers")))).stream()
 					.min(Comparator.comparingDouble(e -> e.distanceToSqr(x, y, z))).orElse(null);
 			if (!(Targetentity == null)) {
 				if (entity instanceof Mob _entity && Targetentity instanceof LivingEntity _ent)

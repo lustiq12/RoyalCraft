@@ -20,7 +20,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.royalcraft.procedures.BlueGiantOnEntityTickUpdateProcedure;
+import net.mcreator.royalcraft.procedures.deprecated.BlueGiantOnEntityTickUpdateProcedure;
 
 public class BlueGiantEntity extends Monster {
 	public static final EntityDataAccessor<String> DATA_Team = SynchedEntityData.defineId(BlueGiantEntity.class, EntityDataSerializers.STRING);

@@ -22,7 +22,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.royalcraft.procedures.BlueBarbarianOnEntityTickUpdateProcedure;
+import net.mcreator.royalcraft.procedures.deprecated.BlueBarbarianOnEntityTickUpdateProcedure;
 
 public class BlueBarbarianEntity extends Monster {
 	public static final EntityDataAccessor<String> DATA_Team = SynchedEntityData.defineId(BlueBarbarianEntity.class, EntityDataSerializers.STRING);

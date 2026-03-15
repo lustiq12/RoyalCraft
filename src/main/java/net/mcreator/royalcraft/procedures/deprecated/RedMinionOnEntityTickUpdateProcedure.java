@@ -1,7 +1,8 @@
-package net.mcreator.royalcraft.procedures;
+package net.mcreator.royalcraft.procedures.deprecated;
 
 import net.mcreator.royalcraft.entity.RedMinionEntity;
 import net.mcreator.royalcraft.network.RoyalcraftModVariables;
+import net.mcreator.royalcraft.procedures.InvulnerableProcedure;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;

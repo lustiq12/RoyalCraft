@@ -20,7 +20,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-import net.mcreator.royalcraft.procedures.BlueMiniPEKKAOnEntityTickUpdateProcedure;
+import net.mcreator.royalcraft.procedures.deprecated.BlueMiniPEKKAOnEntityTickUpdateProcedure;
 
 public class BlueMiniPEKKAEntity extends Monster {
 	public static final EntityDataAccessor<String> DATA_Team = SynchedEntityData.defineId(BlueMiniPEKKAEntity.class, EntityDataSerializers.STRING);

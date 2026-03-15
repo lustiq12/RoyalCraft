@@ -1,5 +1,6 @@
-package net.mcreator.royalcraft.procedures;
+package net.mcreator.royalcraft.procedures.deprecated;
 
+import net.mcreator.royalcraft.procedures.InvulnerableProcedure;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;

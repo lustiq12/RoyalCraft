@@ -1,7 +1,7 @@
 package net.mcreator.royalcraft.entity;
 
 import net.mcreator.royalcraft.init.RoyalcraftModEntities;
-import net.mcreator.royalcraft.procedures.BlueMinionOnEntityTickUpdateProcedure;
+import net.mcreator.royalcraft.procedures.targeting.TroopTickProcedure;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -70,7 +70,7 @@ public class BlueMinionEntity extends Monster implements RangedAttackMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		BlueMinionOnEntityTickUpdateProcedure.execute(this.level(), this);
+		TroopTickProcedure.execute(this.level(), this, "red", true, true, true, 5.0f);
 		this.setNoGravity(true);
 
 		// Höhe korrigieren
