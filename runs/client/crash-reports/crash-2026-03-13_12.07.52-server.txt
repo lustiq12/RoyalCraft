@@ -52,7 +52,7 @@ Stacktrace:
 	at TRANSFORMER/minecraft@1.21.8/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
 -- Entity being ticked --
 Details:
-	Entity Type: royalcraft:blue_minion (net.mcreator.royalcraft.entity.BlueminionEntity)
+	Entity Type: royalcraft:blue_minion (net.luderspieler.royalcraft.entity.BlueminionEntity)
 	Entity ID: 74
 	Entity Name: entity.royalcraft.blue_minion
 	Entity's Exact location: 33.78, 101.02, 20.31

@@ -9,7 +9,7 @@ java.lang.IllegalStateException: Missing elements in vertex: UV1
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.beginVertex(BufferBuilder.java:91) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.addVertex(BufferBuilder.java:149) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.VertexConsumer.addVertex(VertexConsumer.java:163) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
-	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:50) ~[bus-8.0.5.jar%23176!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23176!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23176!/:?] {}
@@ -56,7 +56,7 @@ Stacktrace:
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.beginVertex(BufferBuilder.java:91) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.BufferBuilder.addVertex(BufferBuilder.java:149) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
 	at TRANSFORMER/minecraft@1.21.8/com.mojang.blaze3d.vertex.VertexConsumer.addVertex(VertexConsumer.java:163) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
-	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.client.renderer.HealthBarOverlay.onDoRender(HealthBarOverlay.java:72) ~[%23221!/:?] {re:classloading}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.SubscribeEventListener.invoke(SubscribeEventListener.java:50) ~[bus-8.0.5.jar%23176!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23176!/:?] {}
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23176!/:?] {}
@@ -99,7 +99,7 @@ Stacktrace:
 
 -- Renderer details --
 Details:
-	Assigned renderer: net.mcreator.royalcraft.client.renderer.RedTowerRenderer@22f8be7c
+	Assigned renderer: net.luderspieler.royalcraft.client.renderer.RedTowerRenderer@22f8be7c
 	Location: 11.79,-5.73,4.11 - World: (11,-6,4), Section: (at 11,10,4 in 0,-1,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
 Stacktrace:
 	at TRANSFORMER/minecraft@1.21.8/net.minecraft.client.renderer.entity.EntityRenderDispatcher.fillRendererDetails(EntityRenderDispatcher.java:265) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading}
@@ -135,7 +135,7 @@ Stacktrace:
 
 -- Entity being rendered --
 Details:
-	Entity Type: royalcraft:red_tower (net.mcreator.royalcraft.entity.RedTowerEntity)
+	Entity Type: royalcraft:red_tower (net.luderspieler.royalcraft.entity.RedTowerEntity)
 	Entity ID: 9
 	Entity Name: Red Tower
 	Entity's Exact location: 32.50, 101.00, 22.50

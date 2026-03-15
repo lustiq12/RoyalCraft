@@ -1,7 +1,7 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "net.mcreator",
+    "group": "net.luderspieler",
     "module": "RoyalCraft",
     "version": "1.0-SNAPSHOT",
     "attributes": {

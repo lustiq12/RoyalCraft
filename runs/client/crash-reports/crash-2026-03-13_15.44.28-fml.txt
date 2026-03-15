@@ -17,7 +17,7 @@ Stacktrace:
 -- Mod loading issue for: royalcraft --
 Details:
 	Caused by 0: java.lang.ExceptionInInitializerError
-		at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.RoyalcraftMod.<init>(RoyalcraftMod.java:56) ~[%23221!/:?] {re:classloading}
+		at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.RoyalcraftMod.<init>(RoyalcraftMod.java:56) ~[%23221!/:?] {re:classloading}
 		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
 		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
 		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
@@ -45,9 +45,9 @@ Stacktrace:
 	at TRANSFORMER/minecraft@1.21.8/net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(ResourceLocation.java:43) ~[neoforge-21.8.52.jar%23219!/:?] {re:classloading,pl:accesstransformer:B}
 	at TRANSFORMER/neoforge@21.8.52/net.neoforged.neoforge.registries.DeferredRegister.register(DeferredRegister.java:230) ~[neoforge-21.8.52.jar%23220!/:?] {re:classloading}
 	at TRANSFORMER/neoforge@21.8.52/net.neoforged.neoforge.registries.DeferredRegister.register(DeferredRegister.java:215) ~[neoforge-21.8.52.jar%23220!/:?] {re:classloading}
-	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.init.RoyalcraftModEntities.register(RoyalcraftModEntities.java:62) ~[%23221!/:?] {re:classloading}
-	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.init.RoyalcraftModEntities.<clinit>(RoyalcraftModEntities.java:36) ~[%23221!/:?] {re:classloading}
-	at TRANSFORMER/royalcraft@1.0.0/net.mcreator.royalcraft.RoyalcraftMod.<init>(RoyalcraftMod.java:56) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.init.RoyalcraftModEntities.register(RoyalcraftModEntities.java:62) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.init.RoyalcraftModEntities.<clinit>(RoyalcraftModEntities.java:36) ~[%23221!/:?] {re:classloading}
+	at TRANSFORMER/royalcraft@1.0.0/net.luderspieler.royalcraft.RoyalcraftMod.<init>(RoyalcraftMod.java:56) ~[%23221!/:?] {re:classloading}
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}

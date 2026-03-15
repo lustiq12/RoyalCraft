@@ -1,7 +1,3 @@
-/give Dev1 royalcraft:red_minion_spawn_egg
-/startgame Dev1 Dev1 0 100 0
-/startgame Dev1 Dev2 0 100 0
-/elixir Dev1 2
 /elixir Dev1 3
 /elixir Dev1 4
 /elixir Dev1 5
@@ -48,3 +44,7 @@
 /effect give Dev1 minecraft:strength infinite 10 true
 /time set day
 /startgame Dev1 Dev1 0 100 0
+/elixir Dev1 100
+/startgame Dev1 Dev1 0 100 0
+/crteam Dev1 Red
+/elixir Dev1 100
