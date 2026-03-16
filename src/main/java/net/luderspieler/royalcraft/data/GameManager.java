@@ -76,8 +76,8 @@ public class GameManager {
         Entity redKingTower  = RoyalcraftModEntities.RED_KING_TOWER.get().spawn(level, BlockPos.containing(x + 36, y + 1, z + 17), EntitySpawnReason.MOB_SUMMONED);
 
         // Give cards & elixir
-        giveRandomCards(bluePlayer, 9);
-        giveRandomCards(redPlayer, 9);
+        giveRandomCards(bluePlayer, 4);
+        giveRandomCards(redPlayer, 4);
         setElixir(bluePlayer, 10);
         setElixir(redPlayer, 10);
 

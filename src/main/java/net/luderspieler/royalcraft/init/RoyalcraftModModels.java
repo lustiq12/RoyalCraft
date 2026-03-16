@@ -22,5 +22,6 @@ public class RoyalcraftModModels {
 		event.registerLayerDefinition(ModelMinion.LAYER_LOCATION, ModelMinion::createBodyLayer);
 		event.registerLayerDefinition(ModelGiant.LAYER_LOCATION, ModelGiant::createBodyLayer);
 		event.registerLayerDefinition(ModelHealthBar.LAYER_LOCATION, ModelHealthBar::createBodyLayer);
+		event.registerLayerDefinition(ModelFireball.LAYER_LOCATION, ModelFireball::createBodyLayer);
 	}
 }
